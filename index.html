@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Looking Forwad</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+	<div class="navbar">
+		<a class="active" href="#">Home</a>
+		<a href="sub1.html">Page 2</a>
+		<a href="sub2.html">Page 3</a>
+	</div>
+	<div class="main">
+		<h1>What I'm Looking Forward To</h1>
+		<div class="slider">
+			<div class="thing">
+				<img src="image.jpeg">
+				<div class="info">
+					<h2>Biking</h2>
+					<p>Some text here</p>
+				</div>
+			</div>
+			<div class="thing">
+				<img src="sleep.jpeg">
+				<div class="info">
+					<h2>Sleeping</h2>
+					<p>Some text here</p>
+				</div>
+			</div>
+			<div class="thing">
+				<img src="game.jpeg">
+				<div class="info">
+					<h2>Videogames</h2>
+					<p>Some text here</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="prev"></div>
+	<div class="next"></div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.slider').slick({
+				autoplay: true,
+				arrows: true,
+				autoplaySpeed: 5000,
+				prevArrow: $('.prev'),
+      			nextArrow: $('.next'),
+			});
+		});
+	</script>
+</body>
+</html>
