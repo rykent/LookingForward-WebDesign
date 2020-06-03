@@ -97,3 +97,22 @@ body {
 	margin-left: 410px;
 	width: 400px;
 }
+
+
+.sub h1 {
+	font-size: 40px;
+}
+
+.sub p {
+	font-size: 25px;
+}
+
+.left {
+	border-radius: 10px;
+	width: 300px;
+	background: #A9B4C2;
+	padding: 10px;
+	margin: 0 0 0 50px;
+	position: relative;
+	top: 100px;
+}
